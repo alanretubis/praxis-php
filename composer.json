@@ -1,0 +1,22 @@
+{
+  "name": "alanretubis/praxis-php",
+  "description": "PraxisPHP: A lightweight beginner-friendly PHP MVC microframework.",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AlanRetubis\\PraxisPHP\\": "src/",
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alan Teves Retubis",
+      "email": "alanretubis@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "vlucas/phpdotenv": "^5.6"
+  }
+}
