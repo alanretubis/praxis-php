@@ -1,7 +1,5 @@
 # PraxisPHP
 
-[![CI](https://github.com/your-username/praxis-php/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/praxis-php/actions)
-
 PraxisPHP is a lightweight and modern PHP micro-framework designed for simplicity, speed, and flexibility.  
 Perfect for building small to medium web applications and APIs without the heavy baggage of larger frameworks.
 
