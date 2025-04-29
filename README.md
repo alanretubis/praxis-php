@@ -33,21 +33,27 @@ Perfect for building small to medium web applications and APIs without the heavy
    You can install the PraxisPHP package directly using Composer:
 
    ```bash
-   composer require your-username/praxis-php
+   composer create-project alanretubis/praxis-php <project-name>
    ```
 
 2. Configure the Environment
 
-Copy the example environment file to `.env`.
+   Copy the example environment file to `.env`.
 
-- For **macOS/Linux**:
+   - For **macOS/Linux**:
 
-  ```bash
-  cp .env.example .env
-  ```
+   ```bash
+   cp .env.example .env
+   ```
 
-- For **Windows**:
+   - For **Windows**:
 
-  ```bash
-  copy .env.example .env
-  ```
+   ```bash
+   copy .env.example .env
+   ```
+
+3. Running your app
+
+   ```bash
+   php -S localhost:8000 -t public
+   ```
